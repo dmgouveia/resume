@@ -33,7 +33,7 @@
     @include sans;
     font-size: 3rem;
     font-weight: 900;
-    text-align: center;
+    text-align: justify;
     letter-spacing: -.15rem;
     line-height: 1;
     margin: 1rem 0 0;
@@ -41,7 +41,7 @@
 
   .header-contact-info {
     @include sans;
-    text-align: center;
+    text-align: justify;
   }
   .header-contact-info p a {
     color: inherit;
@@ -59,7 +59,7 @@
       font-size: 1.75rem;
       line-height: 2rem;
       letter-spacing: -.05rem;
-      text-align: center;
+      text-align: justify;
       margin: 0 0 .5rem;
 
       @include media_larger_than_mobile {
@@ -80,7 +80,7 @@
   list-style: none;
   position: relative;
   top: 4px;
-  text-align: center;
+  text-align: justify;
   border-top: 2px solid #c7c7c7;
   padding-top: .4rem;
 
@@ -112,7 +112,7 @@
   @include border-radius(3px);
   background-color: #efefef;
   text-decoration: none;
-  text-align: center;
+  text-align: justify;
   display: block;
   margin: 1.5rem auto;
   width: 220px;
@@ -179,7 +179,7 @@
 .page-footer {
   border-top: 4px solid #c7c7c7;
   padding-top: 1.5rem;
-  text-align: center;
+  text-align: justify;
   margin-bottom: 3rem;
 
   .footer-line {
